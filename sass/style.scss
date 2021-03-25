@@ -1,18 +1,21 @@
 @import "variables";
 @import url('https://fonts.googleapis.com/css?family=Lato|Patua+One');
 
-.layout-container {
+body {
   color: var(--main-color);
   background: var(--bg-color);
   font-family: "Lato", sans-serif;
+}
+
+.layout-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 nav {
   grid-column: 1;
-  ul {
-    text-align: center;
+  text-align: center;
+  ul.menu {
     color: blue;
   }
 }
@@ -21,7 +24,14 @@ main {
   grid-column: 2 / span 2;
 }
 
-h1 {
+h1, h2 {
   font-family: "Patua One", serif;
+  font-weight: normal
 }
+
+img.portrait {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
 
