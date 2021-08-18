@@ -1,7 +1,7 @@
 name: AHD Dot Net
 description: Theme for AndrewHD.net
 type: theme
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 base theme: classy
 libraries:
   - ahdnet/global-css
